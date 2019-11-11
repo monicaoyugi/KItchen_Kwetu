@@ -1,0 +1,417 @@
+
+@media screen and (max-width: 600px){
+    
+}
+
+
+
+body{
+    background-image: url('https://ssfirepits.com/wp-content/uploads/2015/04/bg-parchment.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.container
+{
+    width: 100%;
+    top: 0;
+    right:0;
+    left:0;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    position: static;
+    }
+
+
+.sign-up-form{
+    /* width: 200px; */
+    box-shadow: 0 0 3px 0 rgb(0, 0, 0.3);
+    background: #ffffff;
+    padding: 20px;
+    margin: 8% auto 0;
+    text-align: center;
+    border-radius: 35px;
+}
+
+    .sign{
+        margin-top: 30%;
+        color: orangered;
+    }
+
+.sign-up-form h1{
+    color: orangered;
+    margin-bottom: 30px;
+
+}
+.input-box{
+      border-radius: 20px;
+      padding: 10px;
+      margin: 10px 0;
+      width: 100%;
+      border: 1px solid beige;
+      outline: none;
+}
+
+button{
+    color: #ffffff;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+}
+
+.signup-btn{
+    background-color: #1c8adb;
+}
+.twitter-btn{
+    background-color: #21afde;
+}
+a{
+    text-decoration: none;
+}
+hr{
+    margin-top: 20px;
+    width: 80%;
+}
+.or{
+    background: #ffffff;
+    width: 80px;
+    margin: -19px auto 10px; 
+}
+
+
+.video{
+background-position-x: center;
+}
+
+.bar{
+    margin-left: 40%;
+}
+.logo img{
+      width: 120px;
+      height: 150px;      
+}
+.search{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px;
+}
+
+.topbar_info {
+    font-family: Open Sans;
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 48px;
+    color:orangered;
+    text-decoration: none;
+    margin-right: 8px;
+}
+
+.navigation{
+    float: right;
+    font-family: 'Yeon Sung', cursive;
+    
+}
+
+.navigation nav ul{
+    text-align: right;
+    background-color: white;
+}
+
+.navigation nav ul li{
+    display: inline-block;
+    padding: 30px;
+    background-color: burlywood;
+}
+.navigation nav ul li a{
+    text-decoration: none;
+    display: block;
+}
+
+
+.navigation nav ul li a:hover{
+    color: orange;
+}
+ 
+
+.banners{
+    width: 80%;
+    background-repeat: no-repeat;
+    margin-left: 10%;
+    margin-right: 10%;   
+}
+
+#welcome_banner {
+    width: 45%;
+    height: 50%;
+    float: left;
+    margin-top: 5;
+}
+
+.txt_home {
+    font-family: 'Dancing Script', cursive;
+    margin-left: 10%;
+    font-family: 'Yeon Sung', cursive;
+    
+}
+.txt_home p{
+    font-size: 28px;
+}
+
+.video{
+    float: right;
+    margin-right: 30px;
+    margin-top: 3%;
+}
+
+/*footer*/
+
+#footer_banner {
+    width: 100%;
+    height: 920%;
+    float: right;
+    opacity: 0.9;
+    margin-top: 80px;
+    background-color: beige;
+}
+        
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  /* intagram */
+  .fa-intagram {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  .link-footer{
+      float: right;
+  }
+
+        /*About*/
+
+
+
+
+   .about-kwetu{
+       width: 80%;
+       margin-left: 10%;
+       margin-top: 2%;
+       display: flex;
+
+   }
+   
+
+   .cont-1{
+       padding: 2%;
+   }
+   .cont-2{
+    font-family: 'Yeon Sung', cursive;
+   }
+  .mid-section{
+      width: 80%;
+      margin-left: 10%;
+      margin-top: 3%;
+      display: flex;
+      flex-direction: row;
+  }
+  .about-nav{
+      background-size: cover;
+      background-image: url("https://img1.mashed.com/img/uploads/2017/01/truth-about-buffets.jpg");
+      height: 300px;
+  }
+  .nav-txt{
+      width: auto;
+      display: inline-block;
+      text-shadow: none;
+      top: 90%;
+      color: whitesmoke;
+      font-family: 'Yeon Sung', cursive;
+      
+  }
+
+  .cont-1{
+      font-size: 22px;
+      font-family: 'Yeon Sung', cursive;
+  }
+
+  
+   .cont-3{
+    font-family: 'Yeon Sung', cursive;
+    margin-left: 6%;
+    margin-left: 40%;
+   }
+
+ .photo-2{
+     width: 35%;
+     height: 20%
+ }
+
+ .photo-3{
+     width: 35%;
+     height: 20%;
+ }
+ #image-3{
+    
+     margin-left: 40%;
+ }
+  /*contats*/
+
+  .form{
+    width: 70%;
+    height: 70%;
+    margin-left: 15%;
+    top: 0;
+    right:0;
+    left:0;
+    bottom: 0;
+    display: flex;
+    font-family: 'Yeon Sung', cursive;
+    font-size: 24px;
+    padding: 4%;
+
+  }
+
+  /*Menu*/ 
+.gal{
+    text-align: center;
+    margin-top: 2%;
+}
+
+  .column {
+    float:right;
+    width: 30.33%;
+    padding: 2px;
+  }
+  
+
+  .row::after {
+    clear: both;
+    display: table;
+  }
+
+  .row {
+    display: flex;
+  }
+
+   
+
+.myimage img{
+    width: 500px;
+    height: 100px;
+}
+.mySlides {display:none;}
+
+
+
+/*services*/
+
+#side {
+    width: 600px;
+    height: 750px;
+    float: left;
+    margin-top: 75px;
+    margin-left: 50px;
+}
+
+.event1 {
+    width: 550px;
+    height: 150px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    
+}
+.eve1 {
+    width: 250px;
+    height: 100px; 
+    float: right;
+    margin-right: 10px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.event2 {
+    width: 550px;
+    height: 150px;
+    background-repeat: no-repeat;
+    margin-top: 25px;
+}
+.eve2 {
+    width: 250px;
+    height: 100px;
+    float: right;
+    margin-right: -10px;
+}
+.event3 {
+    width: 550px;
+    height: 150px;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+}
+.eve3 {
+    width: 250px;
+    height: 100px;
+    float: right;
+    margin-right: -10px;
+}
+.event4 {
+    width: 550px;
+    height: 150px;
+    background-repeat: no-repeat;
+    margin-top: 25px;
+}
+.eve4 {
+    width: 250px;
+    height: 100px;
+    float: right;
+    margin-right: -10px;
+}
+
+
+
