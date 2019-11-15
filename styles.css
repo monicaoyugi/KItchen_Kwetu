@@ -3,6 +3,10 @@
     
 }
 
+*{
+    scroll-behavior: smooth;
+}
+
 
 
 body{
@@ -27,8 +31,16 @@ body{
     display: flex;
     justify-content: space-around;
     height:300px;
+    background-color: white;
+    height: 9%;;
     
     }
+/*call*/
+
+.span4{
+    margin-left: -145%;
+    margin-top: 10%
+}
 
 
 .sign-up-form{
@@ -39,10 +51,11 @@ body{
     margin: 8% auto 0;
     text-align: center;
     border-radius: 35px;
+    margin-bottom: 1%;
 }
 
     .sign{
-        margin-top: 30%;
+        margin-top: 35%;
         color: orangered;
     }
 
@@ -63,7 +76,7 @@ body{
 button{
     color: #ffffff;
     width: 100%;
-    padding: 10px;
+    /* padding: 10px; */
     border-radius: 20px;
     font-size: 15px;
     margin: 10px 0;
@@ -105,15 +118,15 @@ background-position-x: center;
 }
 .logo img{
       width: 120px;
-      height: 150px;      
+      height: 120px;      
 }
 .search{
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     justify-content: flex-end;
     margin: 1%;
     height: 30px;
-    display: f
+    margin-top: 8%;
 }
 
 .topbar_info {
@@ -131,15 +144,18 @@ background-position-x: center;
     font-family: 'Yeon Sung', cursive;
     display: flex;
     flex-direction:column;
-    
+    /* width: inherit;  */
+    font-size: 200%;
+    margin-right: 13%;
 }
+
 .navigation div:not(first-child){
     display: flex;
 }
 
 .navigation nav ul{
     text-align: right;
-    background-color: white;
+    background-color: white,transparent;
     width: 140%;
     margin-right: -50px;
 }
@@ -206,6 +222,7 @@ background-position-x: center;
     width: 50px;
     text-align: center;
     text-decoration: none;
+    margin-top: -5%;
   }
   
 
@@ -286,6 +303,7 @@ background-position-x: center;
       background-size: cover;
       background-image: url("https://img1.mashed.com/img/uploads/2017/01/truth-about-buffets.jpg");
       height: 300px;
+      margin-top: 1%;
   }
   .nav-txt{
       width: auto;
@@ -328,7 +346,6 @@ background-position-x: center;
     width: 70%;
     height: 70%;
     margin-left: 15%;
-    top: 0;
     right:0;
     left:0;
     bottom: 0;
@@ -336,10 +353,16 @@ background-position-x: center;
     font-family: 'Yeon Sung', cursive;
     font-size: 24px;
     padding: 4%;
+    background-color: white;
+    box-shadow: 0 0 3px 0 rgb(0, 0, 0.3);
+    margin-top: 2%;
 
   }
   #box{
       display: flex;
+      margin-right: 10%;
+      margin-left: 10%;
+      margin-top: -2%;
   }
 
   /*Menu*/ 
